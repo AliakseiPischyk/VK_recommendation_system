@@ -43,6 +43,7 @@ Parameters selection for friend-searching algorithms:
 User will be able to choose significant parameters for searching algorithms.
 ## 3.2 Non-functional requirements
 **3.2.1 Quality attributes**
+
 Conduct a focus group, ask if its participants are statisfied with given recommendations or not. Percentage of statisfied people is a way to estimate precision of recommendation algorithms.
 
 # 4 Analogs
