@@ -18,6 +18,7 @@ Internet access, browser.
 # 3 System requirements
 ## 3.1 Functional requirements
 Recommend friends, music, groups.
+
 Parameters selection for friend-searching algorithms.
 ## 3.2 Non-functional requirements
 **3.2.1 Quality attributes**
