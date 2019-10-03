@@ -11,6 +11,8 @@ Vk recommendatory bot. This bot will be able to find new music, friends and grou
 ## 2.2 User interface
 Text and graphical interface. Dialog with VK bot.
 ![GitHub Logo](/Mockups/UI.png)
+![GitHub Logo](/Mockups/friends.png)
+![GitHub Logo](/Mockups/music.png)
 ## 2.3 Users characteristics
 People with Vk account who want to make new friends, find music which is similar to one they listen to and groups depending on user interests.
 ## 2.4 Dependencies
