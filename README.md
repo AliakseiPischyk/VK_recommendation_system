@@ -47,6 +47,6 @@ User will be able to choose significant parameters for searching algorithms.
 Conduct a focus group, ask if its participants are statisfied with given recommendations or not. Percentage of statisfied people is a way to estimate precision of recommendation algorithms.
 
 # 4 Analogs
-Vk recomendation services.
-Facebook recomendation services.
-Yandex music recomendation services.`
+1. Vk recomendation services.
+2. Facebook recomendation services.
+3. Yandex music recomendation services.`
