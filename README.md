@@ -12,15 +12,14 @@ Text and graphical interface. Dialog with VK bot.
 ## 2.3 Users characteristics
 People who want to make new friends, find music which is similar to one they listen to and groups depending on user interests.
 ## 2.4 Dependencies
-Internet access, browser
+Internet access, browser.
 # 3 System requirements
 ## 3.1 Functional requirements
-.
-..
-.
+Recommend friends, music, groups.
+Parameters selection for friend-searching algorithms.
 ## 3.2 Non-functional requirements
 **3.2.1 Quality attributes**
 
-User satisfaction with received recommendations
+User satisfaction with received recommendations.
 # 4 Analogs
-Vk recomendation services
+Vk recomendation services.
