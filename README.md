@@ -9,7 +9,9 @@ Vk recommendatory bot. This bot will be able to find new music, friends and grou
 ## 2.1 Programming interface
 [VK api](https://pypi.org/project/vk-api/) and machine learning libraries such as [Pandas v0.25](https://pandas.pydata.org/), [scikit v0.21](https://scikit-learn.org/stable/), [NumPy v1.8.2](https://numpy.org/) will be used for implementing this bot. Code will be written in Python 3.6.
 ## 2.2 User interface
-Text and graphical interface. Dialog with VK bot.
+Text and graphical interface. 
+
+Dialog with VK bot.
 ![GitHub Logo](/Mockups/UI.png)
 
 Recommended friends
