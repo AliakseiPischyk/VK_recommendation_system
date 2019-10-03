@@ -11,7 +11,11 @@ Vk recommendatory bot. This bot will be able to find new music, friends and grou
 ## 2.2 User interface
 Text and graphical interface. Dialog with VK bot.
 ![GitHub Logo](/Mockups/UI.png)
+
+Recommended friends
 ![GitHub Logo](/Mockups/friends.png)
+
+Recommended music
 ![GitHub Logo](/Mockups/music.png)
 ## 2.3 Users characteristics
 People with Vk account who want to make new friends, find music which is similar to one they listen to and groups depending on user interests.
@@ -25,7 +29,16 @@ This bot will recommend:
 2. music
 3. groups.
 
-Parameters selection for friend-searching algorithms.
+Parameters selection for friend-searching algorithms:
+1. music
+2. friends
+3. groups
+4. location
+5. place of study
+6. sex
+7. age
+
+User will be able to choose significant parameters for searching algorithms.
 ## 3.2 Non-functional requirements
 **3.2.1 Quality attributes**
 Conduct a focus group, ask if its participants are statisfied with given recommendations or not. Percentage of statisfied people is a way to estimate precision of recommendation algorithms.
