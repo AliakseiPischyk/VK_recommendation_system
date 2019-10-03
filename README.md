@@ -1,5 +1,7 @@
 
 # Project requrements
+## Glossary
+[Vk](http://vk.com) — social network
 ## 1 Introduction
 
 Vk recommendatory bot. This bot will be able to find new music, friends and groups for VK users.
