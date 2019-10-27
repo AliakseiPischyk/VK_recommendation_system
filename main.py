@@ -51,3 +51,4 @@ kek = pd.DataFrame(vk.users.get(user_ids=flatUserList, fields="sex,bdate,city,co
 kek['lvl'] = kek.apply(lambda row: get_lvl_by_id(row['id'], lvlAndIds), axis=1)
 kek['is_same_city'] = kek.apply(lambda row: is_same_city(row, 282), axis=1)
 kek['is_same_city'] = kek['is_same_city'].fillna(kek['is_same_city'].astype(float).mean())
+
