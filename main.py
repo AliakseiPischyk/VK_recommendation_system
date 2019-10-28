@@ -1,13 +1,22 @@
 import pandas as pd
 import numpy as np
 import vk_api as vk
+from bot import chatbot
+from bot.chatbot import ChatBot
+from contentGenerators import FriendFinder
+import re
+from sklearn import preprocessing
 
+def get_year(date):
+    if isinstance(date, str):
+        if date.count('.') == 2:
+            return re.split(r'\.', date)[2]
+    return np.nan
 
 def is_same_city(row, city_id):
     if isinstance(row['city'], dict):
         return row['city'].get('id') == city_id
-    else:
-        return np.nan
+    return np.nan
 
 
 def get_lvl_by_id(user_id, dict_lvl_id):
@@ -17,10 +26,10 @@ def get_lvl_by_id(user_id, dict_lvl_id):
             return key
     return np.nan
 
-vk_session = vk.VkApi(token=some_token)
+vk_session = vk.VkApi(token=...)
 vk = vk_session.get_api()
 
-basic_friends = vk.friends.search(user_id=some_id, fields="blacklisted,deactivated", count=10)
+basic_friends = vk.friends.search(user_id=..., fields="blacklisted,deactivated", count=10)
 friens = basic_friends.get('items')
 fr_id = []
 for f in friens:
@@ -51,4 +60,12 @@ kek = pd.DataFrame(vk.users.get(user_ids=flatUserList, fields="sex,bdate,city,co
 kek['lvl'] = kek.apply(lambda row: get_lvl_by_id(row['id'], lvlAndIds), axis=1)
 kek['is_same_city'] = kek.apply(lambda row: is_same_city(row, 282), axis=1)
 kek['is_same_city'] = kek['is_same_city'].fillna(kek['is_same_city'].astype(float).mean())
+
+kek['year'] = kek['bdate'].apply(lambda each_date: get_year(each_date)).astype(int)
+abs_dev = kek['year'].sub(2000).abs()
+mean_abs_dev = abs_dev.mean()
+cleared = kek['year'].sub(2000).abs().transform(lambda dev: mean_abs_dev if (dev > 50) else dev)
+cleared_scaled = pd.Series(np.interp(cleared, (cleared.min(), cleared.max()), (0, 1)))
+mean_cl_sc = cleared_scaled.mean()
+weigts_age = cleared_scaled.fillna(mean_cl_sc).sub(1).abs()
 
