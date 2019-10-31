@@ -17,10 +17,9 @@ Dialog with VK bot.
 Recommended friends
 ![GitHub Logo](/Mockups/friends.png)
 
-Recommended music
-![GitHub Logo](/Mockups/music.png)
 ## 2.3 Users characteristics
-People with Vk account who want to make new friends, find music which is similar to one they listen to and groups depending on user interests.
+People with Vk account who want to make new friends.
+
 ## 2.4 Dependencies
 People who want to use this bot must have
 Internet access, a browser, access to Vk and a Vk account.
@@ -28,19 +27,15 @@ Internet access, a browser, access to Vk and a Vk account.
 ## 3.1 Functional requirements
 This bot will recommend:
 1. friends
-2. music
-3. groups.
+
 
 Parameters selection for friend-searching algorithms:
-1. music
-2. friends
-3. groups
-4. location
-5. place of study
-6. sex
-7. age
+1. friends
+2. location
+3. sex
+4. age
 
-User will be able to choose significant parameters for searching algorithms.
+
 ## 3.2 Non-functional requirements
 **3.2.1 Quality attributes**
 
@@ -49,4 +44,3 @@ Conduct a focus group, ask if its participants are statisfied with given recomme
 # 4 Analogs
 1. Vk recomendation services.
 2. Facebook recomendation services.
-3. Yandex music recomendation services.`
