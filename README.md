@@ -11,9 +11,6 @@ Vk recommendatory bot. This bot will be able to find new music, friends and grou
 ## 2.2 User interface
 Text and graphical interface. 
 
-Dialog with VK bot.
-![GitHub Logo](/Mockups/UI.png)
-
 Recommended friends
 ![GitHub Logo](/Mockups/friends.png)
 
