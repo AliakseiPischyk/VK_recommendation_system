@@ -4,7 +4,7 @@
 [Vk](http://vk.com) — social network
 ## 1 Introduction
 
-Vk recommendatory bot. This bot will be able to find new music, friends and groups for VK users.
+Vk recommendatory bot. This bot will be able to find new friends for VK users.
 # 2 User requirements
 ## 2.1 Programming interface
 [VK api](https://pypi.org/project/vk-api/) and machine learning libraries such as [Pandas v0.25](https://pandas.pydata.org/), [scikit v0.21](https://scikit-learn.org/stable/), [NumPy v1.8.2](https://numpy.org/) will be used for implementing this bot. Code will be written in Python 3.6.
