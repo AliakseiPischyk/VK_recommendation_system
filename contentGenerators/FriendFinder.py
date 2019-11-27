@@ -65,7 +65,7 @@ class FriendFinder:
                 return key
         return np.nan
 
-    def generate(self, for_user_id):
+    def generate(self, for_user_id,need_common_friends,location,find_age,find_sex):
         user = self.vk.users.get(user_ids=for_user_id, fields="sex,bdate,city")[0]
         dict_lvl_ids = self.getFriendsLevels(self.vk, for_user_id=user.get('id'))
 
