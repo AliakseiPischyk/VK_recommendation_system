@@ -1,0 +1,19 @@
+{
+    "one_time": true,
+    "buttons": [
+        [{
+            "action": {
+                "type": "text",
+                "label": "Ввести данные",
+                "payload": "{\"button\": \"input\"}"
+            }
+        }],
+        [{
+            "action": {
+                "type": "text",
+                "label": "Запустить",
+                "payload": "{\"button\": \"run\"}"
+            }
+        }]
+    ]
+}
