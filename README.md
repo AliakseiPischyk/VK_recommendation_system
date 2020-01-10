@@ -7,3 +7,7 @@
 
 [Diagrams](https://github.com/AliakseiPischyk/VK_recommendation_system/tree/master/diagrams) 
 
+Среда разработки: PyCharm
+
+Язык: Python
+
